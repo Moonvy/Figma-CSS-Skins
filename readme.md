@@ -120,7 +120,7 @@ body .FigmaExApp .ActionItem:hover {
  
  
  如果你在黑暗模式下使用标尺，可以用这个把标尺变成黑的
- ```
+ ```css
  #fullscreen-root .view.gpu-view-content::before {
     content: "";
     width: 21px;
