@@ -1,0 +1,14 @@
+.properties_panel--propertiesPanel--3PCth,
+.properties_panel--propertiesPanel--3PCth ~ div {
+    background-color: #181818;
+    border-left: 1px solid #fcfcfc38;
+}
+
+[class*=draggable_list--panelTitleText] {
+    color: #fff;
+}
+.scroll_container--innerScrollContainer--21gfN * {
+
+    color: #fff;
+
+}
