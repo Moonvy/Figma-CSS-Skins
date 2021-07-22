@@ -110,6 +110,6 @@ body .FigmaExApp .ActionItem:hover {
  
 
 
-[dark](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.min.css)
+[**Dark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.min.css)
 
  
