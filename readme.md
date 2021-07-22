@@ -21,7 +21,7 @@
  
  
 #### 工具条位置与圆角
-<img width="200px" src="https://user-images.githubusercontent.com/82231420/126590040-e4e22fd5-22fe-453b-ab81-36959ec50623.png">
+<img width="300px" src="https://user-images.githubusercontent.com/82231420/126590040-e4e22fd5-22fe-453b-ab81-36959ec50623.png">
  
 ```css
 /* 工具条位置与圆角 */
@@ -33,7 +33,7 @@ body .FigmaExApp .ExBar {
 ```
  
 #### 工具条放到左侧
-<img width="200px" src="https://user-images.githubusercontent.com/82231420/126589326-27e21bc5-5220-45cd-858d-3babe43d4119.png">
+<img width="300px" src="https://user-images.githubusercontent.com/82231420/126589326-27e21bc5-5220-45cd-858d-3babe43d4119.png">
 
 ```css
 /* 工具条放到左侧 */
@@ -44,14 +44,104 @@ body .FigmaExApp .ExBar {
 }
 ```
 
+#### 黑色外观
+<img width="300px" src="https://user-images.githubusercontent.com/82231420/126614311-ebc69785-c5ca-4be0-9012-668c08475604.png">
+
+```css
+/* 黑色外观 */
+body .FigmaExApp .ActionItem {
+    background: #2c2c2c;
+}
+
+body .FigmaExApp .ExBar .header {
+    background: #2c2c2c;
+}
+
+body .FigmaExApp .ExBar .header .logo-but {
+    opacity: 0;
+}
+
+body .FigmaExApp .ExBar .header .logo-but.color {
+    opacity: 0.8;
+}
+
+body .FigmaExApp .ExBar .header .setting-but,
+.FigmaExApp .ExBar .header .clear-but {
+    filter: invert(1);
+}
+
+body .FigmaExApp .ExBar .reseize-hand {
+    background: #2c2c2c;
+}
+
+body .FigmaExApp .ExBar {
+    background: #252525;
+}
+
+body .figmaex-localfont-but {
+    filter: invert(1);
+}
+body .FigmaExApp .ActionItem .action-info {
+    color: #cbd0d5;
+}
+
+body .FigmaExApp .ExBar .action-list::-webkit-scrollbar-thumb {
+    border: 2px solid #252525;
+}
+
+body .FigmaExApp .ActionItem .action-info .note-name {
+    color: #6e7380;
+}
+
+body .FigmaExApp .ActionItem:hover {
+    background: #1d1d1d;
+}
+```
+
+
+
 ## Figma 的定制
 
 除了可以改 FigmaEX 的外观，也可以改 Figma 的外观，只是 Figma 的 class 不是很适合覆盖
 
 #### 黑暗模式
 
+<img width="300px" src="https://user-images.githubusercontent.com/82231420/126612908-dcf7a4e7-211c-46b4-8da9-accde9c3495d.png">
+ 
 
 
-[dark](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.css)
+[**Dark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.min.css)
 
  
+ 
+ #### 黑暗模式的标尺
+ 
+ <img width="300px" src="https://user-images.githubusercontent.com/82231420/126621014-69c18066-43c5-47f0-9038-08b79bbd9cb0.png">
+ 
+ 
+ 如果你在黑暗模式下使用标尺，可以用这个把标尺变成黑的
+ ```css
+ #fullscreen-root .view.gpu-view-content::before {
+    content: "";
+    width: 21px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}
+
+#fullscreen-root .view.gpu-view-content::after {
+    content: "";
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 21px;
+    top: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}
+
+ ```
