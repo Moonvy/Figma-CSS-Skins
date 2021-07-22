@@ -150,4 +150,4 @@ body .FigmaExApp .ActionItem:hover {
 
  <img width="300px" src="https://user-images.githubusercontent.com/82380792/126638949-2c83310c-b89e-42f2-b65d-1817373cfcfb.png">
 
-[**Dark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
+[**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
