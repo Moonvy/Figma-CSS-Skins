@@ -1,0 +1,22 @@
+#fullscreen-root .view.gpu-view-content::before {
+    content: "";
+    width: 21px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}
+
+#fullscreen-root .view.gpu-view-content::after {
+    content: "";
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 21px;
+    top: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}

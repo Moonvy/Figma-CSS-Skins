@@ -6,25 +6,42 @@ body .FigmaExApp .ExBar .header {
     background: #2c2c2c;
 }
 
-body  .FigmaExApp .ExBar .header .logo-but {
+body .FigmaExApp .ExBar .header .logo-but {
+    opacity: 0;
+}
+
+body .FigmaExApp .ExBar .header .logo-but.color {
+    opacity: 0.8;
+}
+
+body .FigmaExApp .ExBar .header .setting-but,
+.FigmaExApp .ExBar .header .clear-but {
     filter: invert(1);
 }
-
-body  .FigmaExApp .ExBar .header .logo-but.color{
-    filter: invert(0);
-}
-
-body .FigmaExApp .ExBar .header .setting-but, .FigmaExApp .ExBar .header .clear-but {
-    filter: invert(1);
-}
-
 
 body .FigmaExApp .ExBar .reseize-hand {
     background: #2c2c2c;
 }
 
+body .FigmaExApp .ExBar {
+    background: #252525;
+}
 
-
-.figmaex-localfont-but {
+body .figmaex-localfont-but {
     filter: invert(1);
+}
+body .FigmaExApp .ActionItem .action-info {
+    color: #cbd0d5;
+}
+
+body .FigmaExApp .ExBar .action-list::-webkit-scrollbar-thumb {
+    border: 2px solid #252525;
+}
+
+body .FigmaExApp .ActionItem .action-info .note-name {
+    color: #6e7380;
+}
+
+body .FigmaExApp .ActionItem:hover {
+    background: #1d1d1d;
 }
