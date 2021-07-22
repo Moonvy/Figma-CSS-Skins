@@ -1,0 +1,30 @@
+body .FigmaExApp .ActionItem {
+    background: #2c2c2c;
+}
+
+body .FigmaExApp .ExBar .header {
+    background: #2c2c2c;
+}
+
+body  .FigmaExApp .ExBar .header .logo-but {
+    filter: invert(1);
+}
+
+body  .FigmaExApp .ExBar .header .logo-but.color{
+    filter: invert(0);
+}
+
+body .FigmaExApp .ExBar .header .setting-but, .FigmaExApp .ExBar .header .clear-but {
+    filter: invert(1);
+}
+
+
+body .FigmaExApp .ExBar .reseize-hand {
+    background: #2c2c2c;
+}
+
+
+
+.figmaex-localfont-but {
+    filter: invert(1);
+}

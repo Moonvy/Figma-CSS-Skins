@@ -1,0 +1,18 @@
+
+
+
+/* 工具条放到左侧 */
+body .FigmaExApp .ExBar {
+    right: auto;
+    top: 71px;
+    left: 261px;
+}
+
+
+
+/* 工具条位置与圆角 */
+body .FigmaExApp .ExBar {
+    border-radius: 2px;
+    right: 242px;
+    top: 51px;
+}
