@@ -113,3 +113,35 @@ body .FigmaExApp .ActionItem:hover {
 [**Dark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.min.css)
 
  
+ 
+ #### 黑暗模式的标尺
+ 
+ <img width="300px" src="https://user-images.githubusercontent.com/82231420/126621014-69c18066-43c5-47f0-9038-08b79bbd9cb0.png">
+ 
+ 
+ 如果你在黑暗模式下使用标尺，可以用这个把标尺变成黑的
+ ```
+ #fullscreen-root .view.gpu-view-content::before {
+    content: "";
+    width: 21px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}
+
+#fullscreen-root .view.gpu-view-content::after {
+    content: "";
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 21px;
+    top: 0;
+    z-index: 100;
+    background: #00000082;
+    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+}
+
+ ```
