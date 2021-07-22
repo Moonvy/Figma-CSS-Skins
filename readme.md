@@ -44,6 +44,14 @@ body .FigmaExApp .ExBar {
 }
 ```
 
+## Figma 的定制
+
+除了可以改 FigmaEX 的外观，也可以改 Figma 的外观，只是 Figma 的 class 不是很适合覆盖
+
+#### 黑暗模式
 
 
-## 技巧
+
+[dark](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.css)
+
+ 
