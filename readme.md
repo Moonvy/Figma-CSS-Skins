@@ -145,9 +145,22 @@ body .FigmaExApp .ActionItem:hover {
 }
 
  ```
+ 
+ 
+ 
+ ## 其他 FigmaEX 配色主题
 
 #### 粉萌萌模式
 
  <img width="300px" src="https://user-images.githubusercontent.com/82380792/126638949-2c83310c-b89e-42f2-b65d-1817373cfcfb.png">
 
 [**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
+
+
+
+#### 星空蓝模式
+
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126732970-c2b9df3f-0283-409a-875b-e3671645c059.png">
+
+感谢 Wish 提供的配色和代码注释
+[**SkyBlue CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/SkyBlue.css)
