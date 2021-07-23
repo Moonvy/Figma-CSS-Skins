@@ -127,7 +127,7 @@ body .FigmaExApp .ActionItem:hover {
     height: 100%;
     position: absolute;
     left: 0;
-    z-index: 100;
+    z-index: 1;
     background: #00000082;
     backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
 }
@@ -139,7 +139,7 @@ body .FigmaExApp .ActionItem:hover {
     position: absolute;
     left: 21px;
     top: 0;
-    z-index: 100;
+    z-index: 1;
     background: #00000082;
     backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
 }
