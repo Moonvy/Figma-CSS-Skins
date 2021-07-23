@@ -158,9 +158,10 @@ body .FigmaExApp .ActionItem:hover {
 
 
 
+
 #### 星空蓝模式
 
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126732970-c2b9df3f-0283-409a-875b-e3671645c059.png">
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126733168-833b5697-2c46-4284-a65f-901b3336f791.png">
 
 感谢 Wish 提供的配色和代码注释
 [**SkyBlue CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/SkyBlue.css)
