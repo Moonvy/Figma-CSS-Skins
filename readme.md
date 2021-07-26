@@ -157,6 +157,13 @@ body .FigmaExApp .ActionItem:hover {
 [**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
 
 
+#### DeepDark
+
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126982382-102a95d3-f638-44a6-9778-a7c0d77f1c08.png">
+
+感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
+[**DeepDark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/DeepDark.css)
+
 
 
 #### 星空蓝模式
