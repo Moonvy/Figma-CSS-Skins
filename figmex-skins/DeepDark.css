@@ -1,0 +1,118 @@
+/* [Deep Dark] by Alban */
+
+/*字体选择器-开始*/
+/* 默认为正常模式下使用，暗黑界面下方0 需改成 1 */
+body .figmaex-localfont-but {
+    filter: invert(0);
+}
+/* 字体选择器-结束 */
+/* 暗黑效果-开始 */
+
+/*顶部颜色*/
+body .FigmaExApp .ExBar .header {
+    background: rgba(23, 28, 48, 1);
+}
+
+
+/* 输入框-输入状态 */
+.FigmaExApp .ExBar .header .find-input input{    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 搜索为空提示语 */
+.FigmaExApp .ExBar .action-list .empty-found {
+    color: rgba(255, 255, 255, 0.8);
+} 
+
+/* 图标描边颜色 */
+.FigmaExApp .ActionItem.IconBorder .main-icon {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 翻转颜色 */
+body .FigmaExApp .ExBar .header .setting-but,
+.FigmaExApp .ExBar .header .clear-but {
+    filter: invert(1);
+}
+
+/*底部颜色*/
+body .FigmaExApp .ExBar .reseize-hand {
+    background: rgba(23, 28, 48, 1);
+}
+
+/*背景色*/
+body .FigmaExApp .ActionItem {
+    background: rgba(32, 36, 51, 1);
+}
+
+/*滚动轴颜色*/
+body .FigmaExApp .ExBar .action-list::-webkit-scrollbar-thumb {
+    border: 1px solid rgba(71, 72, 88, 1);
+}
+
+/*滚动条背景颜色+搜索为空背景色*/
+body .FigmaExApp .ExBar {
+    background: rgba(32, 36, 51, 1);
+}
+
+/* 鼠标滑过颜色 */
+body .FigmaExApp .ActionItem:hover {
+    background: #27A2F8;
+}
+
+/* 暗黑效果-结束 */
+/* 插件列表-开始 */
+
+/*插件标题字体颜色*/
+body .FigmaExApp .ActionItem .action-info {
+    font-size: 12px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1);
+}
+
+/*插件备注文字颜色*/
+body .FigmaExApp .ActionItem .action-info .note-name {
+    font-size: 12px;
+    color:rgba(255, 255, 255, 0.4);
+}
+
+/* 编辑图标 提高点击大小 24px */
+.FigmaExApp .ActionItem .note-but {
+    /* filter: invert(1); */
+    width: 24px;
+    height: 24px;
+}
+
+/* 编辑图标 hover 状态背景 */
+.FigmaExApp .ActionItem:hover .note-but:hover:before {
+    background:rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* 插件列表-结束 */
+/* 透明效果-开始 */
+
+/* 头部 */
+.FigmaExApp .ExBar.glass .header {
+    background: rgba(60, 66, 88, 0.3);
+}
+
+/*底部颜色*/
+.FigmaExApp .ExBar.glass .reseize-hand {
+    background: rgba(23, 28, 48, 0.1);
+}
+
+/* 背景颜色 */
+.FigmaExApp .ExBar.glass {
+    background: rgba(32, 36, 51, 0.5);
+}
+
+/* 鼠标滑过颜色 */
+.FigmaExApp .ExBar.glass .ActionItem:hover {
+    background: rgba(39, 162, 248, 0.8);
+}
+
+/* 搜索为空背景色 */
+.FigmaExApp .ExBar.glass::before {
+    background: rgba(32, 36, 51, 0.5);
+}
+/* 透明效果-结束 */
