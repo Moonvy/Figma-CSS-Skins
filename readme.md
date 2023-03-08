@@ -99,10 +99,51 @@ body .FigmaExApp .ActionItem:hover {
 ```
 
 
+ 
+ ## 其他 FigmaEX 配色主题
+ 
+ #### 茶茶头像卡通风格
+<img width="300px" src="[https://user-images.githubusercontent.com/82231420/126612908-dcf7a4e7-211c-46b4-8da9-accde9c3495d.png](https://user-images.githubusercontent.com/82380792/223678797-45e77d42-1a79-4b04-b2d3-b4e3542af31f.gif)">
+
+感谢 [**liteyais**](https://github.com/liteyais) 提供的配色和非常好玩的交互动画
+ 
+[**头像版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88-%E4%B8%8D%E5%B8%A6%E8%84%9A.css)
+[**全身版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88.css)
+
+
+
+#### 粉萌萌模式
+
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126638949-2c83310c-b89e-42f2-b65d-1817373cfcfb.png">
+
+[**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
+
+
+#### DeepDark
+
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126982382-102a95d3-f638-44a6-9778-a7c0d77f1c08.png">
+
+感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
+[**DeepDark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/DeepDark.css)
+
+
+
+#### 星空蓝模式
+
+ <img width="300px" src="https://user-images.githubusercontent.com/82380792/126733168-833b5697-2c46-4284-a65f-901b3336f791.png">
+
+感谢 Wish 提供的配色和代码注释
+[**SkyBlue CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/SkyBlue.css)
+
+
+---  
+
 
 ## Figma 的定制
 
 除了可以改 FigmaEX 的外观，也可以改 Figma 的外观，只是 Figma 的 class 不是很适合覆盖
+
+
 
 #### 黑暗模式
 
@@ -147,28 +188,3 @@ body .FigmaExApp .ActionItem:hover {
  ```
  
  
- 
- ## 其他 FigmaEX 配色主题
-
-#### 粉萌萌模式
-
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126638949-2c83310c-b89e-42f2-b65d-1817373cfcfb.png">
-
-[**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
-
-
-#### DeepDark
-
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126982382-102a95d3-f638-44a6-9778-a7c0d77f1c08.png">
-
-感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
-[**DeepDark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/DeepDark.css)
-
-
-
-#### 星空蓝模式
-
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126733168-833b5697-2c46-4284-a65f-901b3336f791.png">
-
-感谢 Wish 提供的配色和代码注释
-[**SkyBlue CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/SkyBlue.css)
