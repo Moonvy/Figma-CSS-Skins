@@ -103,12 +103,12 @@ body .FigmaExApp .ActionItem:hover {
  ## 其他 FigmaEX 配色主题
  
  #### 茶茶头像卡通风格
-<img width="300px" src="[https://user-images.githubusercontent.com/82231420/126612908-dcf7a4e7-211c-46b4-8da9-accde9c3495d.png](https://user-images.githubusercontent.com/82380792/223678797-45e77d42-1a79-4b04-b2d3-b4e3542af31f.gif)">
+<img width="300px" src="https://user-images.githubusercontent.com/82380792/223678797-45e77d42-1a79-4b04-b2d3-b4e3542af31f.gif">
 
 感谢 [**liteyais**](https://github.com/liteyais) 提供的配色和非常好玩的交互动画
  
-[**头像版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88-%E4%B8%8D%E5%B8%A6%E8%84%9A.css)
-[**全身版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88.css)
+- [**头像版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88-%E4%B8%8D%E5%B8%A6%E8%84%9A.css)  
+- [**全身版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88.css)
 
 
 
