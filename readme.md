@@ -108,7 +108,7 @@ body .FigmaExApp .ActionItem:hover {
 感谢 [**liteyais**](https://github.com/liteyais) 提供的配色和非常好玩的交互动画
  
 - [**头像版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88-%E4%B8%8D%E5%B8%A6%E8%84%9A.css)  
-- [**全身版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88.css)
+- [**全身版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E8%8C%B6%E8%8C%B6%E7%9A%AE%E8%82%A4-%E5%85%A8%E8%BA%AB%E7%89%88-%E6%9A%97%E9%BB%91%E6%A8%A1%E5%BC%8F.css)
 
 
 
