@@ -11,9 +11,9 @@
 
 
 ## 支持定制的范围
-- 插件工具条的外观
-- Figma UI3 选中图层上下文面板的外观
-- Figam UI3 左右面板的圆角和间距外观（梦回UI2）
+- [插件工具条的外观](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/readme.md#%E6%8F%92%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%9D%A1%E7%9A%84%E5%A4%96%E8%A7%82%E5%AE%9A%E5%88%B6)
+- [Figma UI3 选中图层上下文面板的外观](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/readme.md#figma-ui3-%E9%80%89%E4%B8%AD%E5%9B%BE%E5%B1%82%E4%B8%8A%E4%B8%8B%E6%96%87%E9%9D%A2%E6%9D%BF%E7%9A%84%E5%A4%96%E8%A7%82)
+- [Figam UI3 左右面板的圆角和间距外观（梦回UI2）](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/readme.md#figam-ui3-%E5%B7%A6%E5%8F%B3%E9%9D%A2%E6%9D%BF%E7%9A%84%E5%9C%86%E8%A7%92%E5%92%8C%E9%97%B4%E8%B7%9D%E5%A4%96%E8%A7%82%E6%A2%A6%E5%9B%9Eui2)
 
 ## 插件工具条的外观定制
 
