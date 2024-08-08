@@ -2,8 +2,6 @@
 
 
 
-
-
 这是一些针对 Figma.com 和 FigmaEX 插件的 CSS 样式，能够让你自定义它们的外观
 
 ## 使用
@@ -12,13 +10,14 @@
  - Chrome 浏览器插件 [Stylish]( https://userstyles.org/)，一个通用的网站自定义样式工具。
 
 
+## 支持定制的范围
+- 插件工具条的外观
+- Figma UI3 选中图层上下文面板的外观
+- Figam UI3 左右面板的圆角和间距外观（梦回UI2）
 
-
-## FigmaEX 的定制
-
+## 插件工具条的外观定制
 
 ### 工具条位置
- 
  
 #### 工具条位置与圆角
 <img width="300px" src="https://user-images.githubusercontent.com/82231420/126590040-e4e22fd5-22fe-453b-ab81-36959ec50623.png">
@@ -44,63 +43,7 @@ body .FigmaExApp .ExBar {
 }
 ```
 
-#### 黑色外观
-<img width="300px" src="https://user-images.githubusercontent.com/82231420/126614311-ebc69785-c5ca-4be0-9012-668c08475604.png">
-
-```css
-/* 黑色外观 */
-body .FigmaExApp .ActionItem {
-    background: #2c2c2c;
-}
-
-body .FigmaExApp .ExBar .header {
-    background: #2c2c2c;
-}
-
-body .FigmaExApp .ExBar .header .logo-but {
-    opacity: 0;
-}
-
-body .FigmaExApp .ExBar .header .logo-but.color {
-    opacity: 0.8;
-}
-
-body .FigmaExApp .ExBar .header .setting-but,
-.FigmaExApp .ExBar .header .clear-but {
-    filter: invert(1);
-}
-
-body .FigmaExApp .ExBar .reseize-hand {
-    background: #2c2c2c;
-}
-
-body .FigmaExApp .ExBar {
-    background: #252525;
-}
-
-body .figmaex-localfont-but {
-    filter: invert(1);
-}
-body .FigmaExApp .ActionItem .action-info {
-    color: #cbd0d5;
-}
-
-body .FigmaExApp .ExBar .action-list::-webkit-scrollbar-thumb {
-    border: 2px solid #252525;
-}
-
-body .FigmaExApp .ActionItem .action-info .note-name {
-    color: #6e7380;
-}
-
-body .FigmaExApp .ActionItem:hover {
-    background: #1d1d1d;
-}
-```
-
-
- 
- ## 其他 FigmaEX 配色主题
+ ## 其他工具条的配色主题
  
  #### 茶茶头像卡通风格
 <img width="300px" src="https://user-images.githubusercontent.com/82380792/223678797-45e77d42-1a79-4b04-b2d3-b4e3542af31f.gif">
@@ -112,80 +55,79 @@ body .FigmaExApp .ActionItem:hover {
 - [**作者设计的其他风格以及更新**](https://github.com/liteyais/FigmaEX-CSS-Skin)
 
 
-
 #### 粉萌萌模式
 
  <img width="300px" src="https://user-images.githubusercontent.com/82380792/126638949-2c83310c-b89e-42f2-b65d-1817373cfcfb.png">
 
 [**Pink CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E7%B2%89%E8%90%8C%E8%90%8C.css)
 
-
-#### DeepDark
-
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126982382-102a95d3-f638-44a6-9778-a7c0d77f1c08.png">
-
-感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
-[**DeepDark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/DeepDark.css)
-
-
-
-#### 星空蓝模式
-
- <img width="300px" src="https://user-images.githubusercontent.com/82380792/126733168-833b5697-2c46-4284-a65f-901b3336f791.png">
-
-感谢 Wish 提供的配色和代码注释
-[**SkyBlue CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/SkyBlue.css)
-
-
 ---  
 
+## Figma UI3 选中图层上下文面板的外观
 
-## Figma 的定制
-
-除了可以改 FigmaEX 的外观，也可以改 Figma 的外观，只是 Figma 的 class 不是很适合覆盖
-
-
-
-#### 黑暗模式
-
-<img width="300px" src="https://user-images.githubusercontent.com/82231420/126612908-dcf7a4e7-211c-46b4-8da9-accde9c3495d.png">
+#### 白色外观
+ <img width="500px" src="https://private-user-images.githubusercontent.com/82380792/356154461-70ef7056-b05e-4ec4-a898-9801bb1a0758.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDgyMjAsIm5iZiI6MTcyMzEwNzkyMCwicGF0aCI6Ii84MjM4MDc5Mi8zNTYxNTQ0NjEtNzBlZjcwNTYtYjA1ZS00ZWM0LWE4OTgtOTgwMWJiMWEwNzU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODA4VDA5MDUyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0ZDUwMTdmYjNiZjdiNmRjODRiODAxZjQyMDE5ZGI0N2NiNGI0NzM2YzAyOTc1ODJiOTUyMzUzMDJhMWIzMzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.88c5yANkkqhpoLmMfdSnvGw27bc166UVJL2JeC4ptBQ">
  
+感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
 
-
-[**Dark CSS**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figma-skins/dark-1.min.css)
-
- 
- 
- #### 黑暗模式的标尺
- 
- <img width="300px" src="https://user-images.githubusercontent.com/82231420/126621014-69c18066-43c5-47f0-9038-08b79bbd9cb0.png">
- 
- 
- 如果你在黑暗模式下使用标尺，可以用这个把标尺变成黑的
- ```css
- #fullscreen-root .view.gpu-view-content::before {
-    content: "";
-    width: 21px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    background: #00000082;
-    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+```css
+.positioned_design_toolbelt--root--INYO4 {
+/*    top: 12px !important;*/
+    left: -16%;
 }
 
-#fullscreen-root .view.gpu-view-content::after {
-    content: "";
-    width: 100%;
-    height: 21px;
-    position: absolute;
-    left: 21px;
-    top: 0;
-    z-index: 1;
-    background: #00000082;
-    backdrop-filter: invert(1) hue-rotate(212deg) brightness(2.5);
+/*EX上下文增强工具*/
+.ExContextPad {
+    background: var(--color-bg);
+    left: calc(42% + 220px);
+    bottom: 12px;
+    height: 40px;
+    border: none;
+    border-radius: var(--radius-large);
 }
 
- ```
+
+/*选项菜单浮层*/
+.AbMenuRoot .oMenuList.shadow {
+    background:var(--color-bg);
+    color: var(--color-text, #333);
+    border-radius: var(--radius-medium);
+    box-shadow: var(--elevation-200-canvas);
+}
+
+
+/*上下文图标*/
+.ExContextPad button img {
+    filter: invert(1);
+}
+
+[data-preferred-theme=dark] {
+  .ExContextPad button img {
+      filter: unset;
+  }
+}
+
+/*图标hover*/
+.ExContextPad button img:hover {
+    background: rgb(255 255 255 / 4%);
+    border-radius: var(--radius-medium);
+}
+
+/*图标间距*/
+.ExContextPad hr {
+/*    display: none;*/
+    background: var(--color-border);
+}
+```
+
+## Figam UI3 左右面板的圆角和间距外观（梦回UI2）
+ #### 去掉左右面板的圆角以及边距,让中间的操作区域更大  
+<img width="400px" src="https://private-user-images.githubusercontent.com/82380792/356159029-271c8586-8d74-4cb1-b396-5face781a1ed.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDg3NjcsIm5iZiI6MTcyMzEwODQ2NywicGF0aCI6Ii84MjM4MDc5Mi8zNTYxNTkwMjktMjcxYzg1ODYtOGQ3NC00Y2IxLWIzOTYtNWZhY2U3ODFhMWVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODA4VDA5MTQyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4MTAyYTRlZDMxNjY1YTg2MDg4ZmQzYzg4NzliZDU3M2YyMGIwYTg4MTliZDkwZmY2YWE3Y2Y5MThlMTNhYTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TCqXLtvz7evKE6W2fUXVqTi6j97l_dvssnEblxsTM1I">  
+解决方案有两个  
+方案一：[**Alban-白**](https://gist.githubusercontent.com/shangrenxi/1f4ec563435cba83a00bfcfdb444f551/raw/figmaEX-Enhance.css)  
+方案二：[**@Ma200line**](https://gist.githubusercontent.com/tr0j4ndev/9d6f1f7ac541910b861665944899e3b9/raw/gistfile1.txt)  
+[两个方案的区别可以前往打开 Figma 文件查看具体对比](https://www.figma.com/design/zR01HW7LaUE43OrSu3jhdY/Figma-%E6%9C%80%E8%BF%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98?node-id=8155-12&t=rgrOuotWK54hFw98-1)  
+
+       
  
  
