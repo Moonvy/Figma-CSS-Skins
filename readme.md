@@ -124,7 +124,9 @@ body .FigmaExApp .ExBar {
 
 ## Figam UI3 左右面板的圆角和间距外观（梦回UI2）
  #### 去掉左右面板的圆角以及边距,让中间的操作区域更大  
-<img width="400px" src="https://private-user-images.githubusercontent.com/82380792/356159029-271c8586-8d74-4cb1-b396-5face781a1ed.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDg3NjcsIm5iZiI6MTcyMzEwODQ2NywicGF0aCI6Ii84MjM4MDc5Mi8zNTYxNTkwMjktMjcxYzg1ODYtOGQ3NC00Y2IxLWIzOTYtNWZhY2U3ODFhMWVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODA4VDA5MTQyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4MTAyYTRlZDMxNjY1YTg2MDg4ZmQzYzg4NzliZDU3M2YyMGIwYTg4MTliZDkwZmY2YWE3Y2Y5MThlMTNhYTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TCqXLtvz7evKE6W2fUXVqTi6j97l_dvssnEblxsTM1I">  
+<img width="912" alt="im321" src="https://github.com/user-attachments/assets/e54bd27a-9a1e-472b-9c94-def387598510">
+
+
   
 解决方案有两个  
 方案一：[**Alban-白**](https://gist.githubusercontent.com/shangrenxi/1f4ec563435cba83a00bfcfdb444f551/raw/figmaEX-Enhance.css)  
