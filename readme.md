@@ -66,7 +66,9 @@ body .FigmaExApp .ExBar {
 ## Figma UI3 选中图层上下文面板的外观
 
 #### 白色外观
- <img width="500px" src="https://private-user-images.githubusercontent.com/82380792/356154461-70ef7056-b05e-4ec4-a898-9801bb1a0758.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDgyMjAsIm5iZiI6MTcyMzEwNzkyMCwicGF0aCI6Ii84MjM4MDc5Mi8zNTYxNTQ0NjEtNzBlZjcwNTYtYjA1ZS00ZWM0LWE4OTgtOTgwMWJiMWEwNzU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODA4VDA5MDUyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0ZDUwMTdmYjNiZjdiNmRjODRiODAxZjQyMDE5ZGI0N2NiNGI0NzM2YzAyOTc1ODJiOTUyMzUzMDJhMWIzMzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.88c5yANkkqhpoLmMfdSnvGw27bc166UVJL2JeC4ptBQ">
+<img width="500" alt="im321" src="https://github.com/user-attachments/assets/1aaa050c-87f4-4ad0-a8cd-df6e13f384fc">
+
+ 
  
 感谢 [**Alban-白**](https://github.com/shangrenxi) 提供的配色和非常详细的代码注释
 
