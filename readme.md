@@ -130,7 +130,7 @@ body .FigmaExApp .ExBar {
   
 解决方案有两个  
 方案一：[**Alban-白**](https://gist.githubusercontent.com/shangrenxi/1f4ec563435cba83a00bfcfdb444f551/raw/figmaEX-Enhance.css)  
-方案二：[**@Ma200line**](https://gist.githubusercontent.com/tr0j4ndev/9d6f1f7ac541910b861665944899e3b9/raw/gistfile1.txt)  
+方案二：[**@Ma200line**](https://gist.githubusercontent.com/tr0j4ndev/9d6f1f7ac541910b861665944899e3b9/raw/figmaui3&figmaex.txt)  
 [两个方案的区别可以前往打开 Figma 文件查看具体对比](https://www.figma.com/design/zR01HW7LaUE43OrSu3jhdY/Figma-%E6%9C%80%E8%BF%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98?node-id=8155-12&t=rgrOuotWK54hFw98-1)  
 
        
