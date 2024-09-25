@@ -50,9 +50,7 @@ body .FigmaExApp .ExBar {
 
 感谢 [**liteyais**](https://github.com/liteyais) 提供的配色和非常好玩的交互动画
  
-- [**头像版**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/EX%E6%8F%92%E4%BB%B6%E8%8C%B6%E8%8C%B6%E6%A9%99-%E5%A4%B4%E5%83%8F%E7%89%88-%E4%B8%8D%E5%B8%A6%E8%84%9A.css)  
-- [**全身版v2.3**](https://github.com/Moonvy/Figma-CSS-Skins/blob/master/figmex-skins/%E8%8C%B6%E8%8C%B6%E7%9A%AE%E8%82%A4-%E5%85%A8%E8%BA%AB%E7%89%88-%E6%B5%85%E8%89%B2%E6%B7%B1%E8%89%B2%E9%80%9A%E7%94%A8%E7%89%88v2.3.css)
-- [**作者设计的其他风格以及更新**](https://github.com/liteyais/FigmaEX-CSS-Skin)
+- [**复制风格**](https://github.com/liteyais/FigmaEX-CSS-Skin)
 
 
 #### 粉萌萌模式
